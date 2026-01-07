@@ -1,0 +1,138 @@
+/* The provided CSS code snippet is styling a webpage with specific styles for the body, footer,
+header, and various elements within them. Here's a breakdown of what each part of the code is doing: */
+/* The CSS code you provided is styling a webpage. Here's a breakdown of what each part of the code is
+doing: */
+/* Ensure the body takes up the full screen so the footer stays down */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Pushes the footer to the bottom */
+h1 {
+    flex: 1;
+}
+
+.site-footer {
+    background-color: #000000; /* Dark professional background */
+    color: #ffffff;
+    text-align: center;
+    padding: 200px 0  15px 0;
+    font-size: 0.7rem;
+    border-top: 1px solid #000000;
+}
+
+.footer-content p {
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase; /* Matches your H1 style */
+}
+
+
+/* CustomFonts */
+@font-face{
+    font-family:'CustomFonts';
+    src:url('CustomFonts/manualprint.woff2') format('woff2');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+h1{
+    font-family:'CustomFonts',sans-serif;
+    font-size: 7rem;
+    text-transform: uppercase;
+    transform: translateY(-3px);
+
+}
+
+
+/* POSITION HELEN STUDIO HEADING AT CENTER ON WEBSITE */
+.center-text{
+    color: #000000 !important;
+    text-align: center;
+    margin: 0 !important;
+    font-size: 1.8rem;
+    flex-grow: 1;
+}
+
+/* ADJUSTING THE REGISTERED TRADEMARK SIGN */
+.tm-symbol{
+    font-size: 0.4em;
+    vertical-align: middle;
+    position: relative;
+    top: -8px;
+}
+
+
+/* The provided CSS code snippet is responsible for styling the header section of a webpage. Here's a
+breakdown of what each part of the code is doing: */
+/* Makes the header stay at the top */
+.main-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff; /* Solid white background */
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+/* Aligns Logo to left/center and buttons to the right */
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-width:none !important;
+    margin: 0 !important;
+    padding: 0 10px;
+}
+
+/* Style for Login/Sign Up buttons */
+.header-actions .login-link {
+    text-decoration: none;
+    color: #140470;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.signup-btn {
+    text-decoration: none;
+    background-color: #b12424; /* You can change this to match your branding */
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* Adjust your existing h1 to fit the header better */
+.center-text {
+    margin: 0;
+    font-size: 3.5rem;
+    flex: 1;
+    text-align: center;
+    margin: 0 !important;
+    font-size: 50px;
+    letter-spacing: 5px; /* Adjust as needed */
+}
+
+
+.header-logo{
+    height: 50px;
+    width: auto;
+    flex: 0 0 auto;
+    margin-left: 0;
+    display: block;
+
+}
+
+

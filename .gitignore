@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+*.log
+*.js.map
+*.d.ts.map
+# if you are using Typescript to generate JS files:
+# helenstudio.js
+helenstudio.js
+helenstudio.d.ts
+
+# Ignore VS Code local settings.vscode/
+
+#Ignore compiled JS and declaration files
+
+helenstudio.js
+helenstudio.d.ts
+
+.vscode/

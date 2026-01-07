@@ -1,0 +1,11 @@
+// The text you provided is a robots.txt file. It is used to communicate with search engine crawlers
+// about which pages or sections of a website should be crawled or not crawled.
+// The text you provided is a robots.txt file. It is used to communicate with web crawlers and specify
+// which parts of a website they are allowed to access.
+# Allow all search engines to crawl the site User-agent* Allow:/
+
+# Specificaly allow AI bts to index context for ChatGPT and Gemini User-agent: GPTBot Allow:/ User-agent: Google-Extended
+Allow:/
+
+# Link to your sitemap (replace with your actual URL)
+ sitemap: https//www.helenstudio.com.ng/sitemap.xml
