@@ -1,0 +1,8 @@
+--- FONT ATTRIBUTION ---
+Font Name: [ManualPrint]
+Author: Aaron D. Chand [memesbruh03]
+Source: https://www.fontspace.com/memesbruh03 [Customfonts/ManualPrint.woff2]
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+As per the license requirements, this font is used with 
+full attribution to the original creator.
